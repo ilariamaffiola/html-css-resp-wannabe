@@ -180,4 +180,10 @@ img {
     .lessons{
         padding-bottom: 3rem;
     }
+    .lessons .col img{
+        height: 100%;
+    }
+    .steps .col img{
+        height: 265px;
+    }
 }

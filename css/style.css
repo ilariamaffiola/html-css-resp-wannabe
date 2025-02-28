@@ -133,3 +133,45 @@ img {
    }
    
 }
+@media screen and (max-width:480px) {
+    .why-us{
+        background-color: black;
+    }
+    .lessons .col{
+        width: 100%;
+    }
+    .row{
+        flex-direction: column;
+        flex-wrap: wrap;
+        gap: 3rem;
+        align-items: center;
+    }
+    .steps .col{
+        width: 100%;
+    }
+    .why-us .col-left{
+        width: 100%;
+    }
+    .why-us .col-right{
+        width: 100%;
+    }
+    h2{
+        font-size: 2.4rem;
+    }
+    h3{
+        font-size: 1.96rem;
+    }
+    p{
+        font-size: 21.5px;
+    }
+    .steps{
+        margin: 0;
+    }
+    .why-us{
+        margin-bottom: 0;
+        padding: 3rem 0;
+    }
+    .lessons{
+        padding-bottom: 3rem;
+    }
+}
